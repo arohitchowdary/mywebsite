@@ -2,503 +2,1227 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Chowdary Portfolio</title>
 
-  <title>Rohit Chowdary Atluri</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-	
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CBQLJYDDRJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  gtag('config', 'G-CBQLJYDDRJ');
-</script> 
-	
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
- 
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+  <!--
+    - #MAIN
+  -->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <main>
 
-      <div class="profile">
-        <img src="assets/img/Formal picture.jpeg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Atluri Rohit Chowdary</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a target="_blank" href="https://www.linkedin.com/in/rohitatluri/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-	  <a target="_blank" href="mailto:risingrohit18@gmail.com?subject=From Your Website" class="gmail"><i class="bx bxl-google"></i></a>
-	  <a target="_blank" href="https://rohitchowdary.medium.com/" class="medium"><i class="bx bxl-medium"></i></a>
-          <a target="_blank" href="https://www.instagram.com/rohit_atluri/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a target="_blank" href="https://twitter.com/urstruly_rohit?s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
-             
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" alt="Rohit Chowdary" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rohit Chowdary">Rohit Chowdary</h1>
+
+          <p class="title">B.Tech, MBA, PGD</p>
         </div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rohitatluri/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/rohitatluri" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://rohitchowdary.medium.com/" class="social-link" target="_blank">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=8XsAiW8AAAAJ&hl=en&oi=sra" class="social-link" target="_blank">
+              <ion-icon name="school"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/rohit_atluri/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul> 
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
       </div>
 
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#services"><i class="bx bx-book-content"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:arohitchowdary@gmail.com" class="contact-link">arohitchowdary@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+13439870751" class="contact-link">+1 (343) 987-0751</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-01-18">January 18, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Toronto, Canada</address>
+            </div>
+
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Frontend built on</p>
+              <a href="https://github.com/codewithsadee/vcard-personal-portfolio" target="_blank" class="contact-link">
+                codewithsadee's project
+              </a>
+            </div>
+          </li>
 
         </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-    </div>
-  </header><!-- End Header -->
+        <div class="separator"></div>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Atluri Rohit Chowdary</h1>
-      
-<p>I'm <span class="typed" data-typed-items="a MBA Graduate, a Developer, an Engineer, a Tech Enthusiast, a We thinker"></span></p>
+          <!-- <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/rohitatluri/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
+            <li class="social-item">
+              <a href="https://github.com/rohitatluri" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://rohitchowdary.medium.com/" class="social-link" target="_blank">
+                <ion-icon name="logo-medium"></ion-icon>
+              </a>
+            </li>
 
-    </div>
-  </section><!-- End Hero -->
+            <li class="social-item">
+              <a href="https://scholar.google.com/citations?user=8XsAiW8AAAAJ&hl=en&oi=sra" class="social-link" target="_blank">
+                <ion-icon name="school"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://www.instagram.com/rohit_atluri/" class="social-link" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-  <main id="main">
+          </ul> -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>I am a Data Analyst and AI Researcher passionate about transforming complex challenges into innovative, data-driven solutions. With expertise in Artificial Intelligence, Large Language Models (LLMs), and advanced analytics, I design impactful tools that are both intuitive and powerful.
-
-            My work focuses on creating AI models, automating processes, and delivering actionable insights through engaging visualizations. Whether optimizing workflows or enhancing decision-making, I bring a personal touch to every project, ensuring it aligns with your goals while staying ahead in a competitive, data-driven world.
- </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/propic.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Rohit Chowdary</h3>
-            <p class="font-italic">
-              Research Assistant @ AI Hub</p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 18th January 1999</li>
-                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li> -->
-                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1 3439870751</li> -->
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Toronto, Canada</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 25</li> -->
-                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Tech(ECE), MBA(DTM), Post Gradution Diploma (Data Analytics and International Business)</li> -->
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> arohitchowdary@gmail.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1 3439870751</li>
-                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li> -->
-                </ul>
-              </div>
-            </div>
-            <p>
-<ul>
-            <!--<li><i class="icofont-swoosh-right"></i>Pursuing MBA (2020-22) at Symbiosis Institute of Digital and Telecom Management, Pune </li>  
-            <li><i class="icofont-swoosh-right"></i> B.Tech Graduate(2016-20) from Indian Institute of Information Technology, Sri City (A.P) </li> -->
-	          <li><i class="icofont-swoosh-right"></i> <strong>Interests:</strong> Data Analytics, Business Analytics, Artificial Intelligence, Machine Learning, Cloud & Big Data, Cybersecurity, Blockchain, Telecommunications, Digital Adoption, Compliance Automation, Predictive Modeling, Data Governance.</li>
-            <li><i class="icofont-swoosh-right"></i> <strong>Skills:</strong> Leadership, Product Management, Python, Java, JavaScript, SQL, R, Angular, Power BI, Tableau, ETL, Data Visualization, AI/ML, Deep Learning, Generative AI, Agile, Data Engineering, Business Intelligence, Risk & Ethics in AI.</li>
-            <li><i class="icofont-swoosh-right"></i> <strong>Strengths:</strong> Analytical mindset, problem-solving, strategic thinking, teamwork, data-driven decision-making, financial acumen, innovation, optimizing business processes, addressing real-world challenges.</li>
-          </ul>            
-</p>
-          </div>
-        </div>
+        </ul>
 
       </div>
-    </section><!-- End About Section -->
 
-<!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
+    </aside>
 
-        <div class="section-title">
-          <h2>Skills</h2>
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Data Analyst and AI Researcher passionate about transforming complex challenges into innovative, data-driven solutions. 
+            With expertise in Artificial Intelligence, Large Language Models (LLMs), and advanced analytics, I design impactful tools 
+            that are both intuitive and powerful.
+
+          </p>
+
+          <p>
+            My work focuses on creating AI models, automating processes, and delivering actionable insights through engaging visualizations. 
+            Whether optimizing workflows or enhancing decision-making, I bring a personal touch to every project, ensuring it aligns 
+            with your goals while staying ahead in a competitive, data-driven world.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  Transforming raw data into actionable insights to support data-driven decision-making
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <p class="service-item-text">
+                  Developing GenAI-powered solutions, integrating LLMs, and delivering intelligent automation for real-world
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+
+                <p class="service-item-text">
+                  Leading cross-functional projects to ensure seamless execution, operational efficiency, stakeholder alignment, and measurable impact
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Tech Blogging</h4>
+
+                <p class="service-item-text">
+                  Tech blogger diving into Data, AI, Telecom, and innovation. Simplifying complex concepts and sparking meaningful conversations.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Sandeep Kumar" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sandeep Kumar - PfMP®</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As my direct report and acting project manager at VOIS, he consistently demonstrated exceptional project management skills, attention to detail, and problem-solving abilities. 
+                    Rohit's positive attitude, excellent communication, and collaborative nature fostered a productive work environment. 
+                    He exhibited adaptability and resilience in challenging situations, consistently delivering outstanding results. 
+                    His passion for continuous learning and support for colleagues' growth make him an invaluable asset to any team. 
+                    I highly recommend Rohit for any professional or leadership role.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.jpeg" alt="Shridhar Dangety" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shridhar Dangety</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rohit joined RIA Advisory LLP as a summer intern. In the beginning like most of the youngsters, he was very quiet and trying to 
+                    accommodate himself in the corporate world, as time passed by he quickly grasped the training and was assigned to projects. 
+                    From day one on the project, he proved his worth. In due course under the guidance of a team lead, Rohit delivered multiple 
+                    in-house applications and was appreciated for his dedication and hard work. I wish him the very best in his career and 
+                    vouch he would be a valuable asset to any team he joins.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.jpeg" alt="Hanumanth Budihal" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hanumanth Budihal</h4>
+              
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    
+                He worked on driving the launch of a our new business unit at HugoByte AI Labs, and he was an asset to us in building up 
+                the project from scratch. His work ethic is pristine; he is easily adjustable to a given situation and has an 
+                excellent eye for details. His ability to go out of his way to help others has made him stand out.
+                
+                His contribution is valuable to any team, and I highly recommend Rohit Chowdary and would love to work with him again.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
 
-        <div class="row skills-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
+        <!--
+          - clients
+        -->
 
-            <div class="progress">
-              <span class="skill">Agile<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+        <!-- <section class="clients">
 
-            <div class="progress">
-               <span class="skill">Data Visualization (Power BI/Tableau) <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+          <h3 class="h3 clients-title">Clients</h3>
 
-            <div class="progress">
-              <span class="skill">Project Management methodologies<i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+          <ul class="clients-list has-scrollbar">
 
-          </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
 
-            <div class="progress">
-              <span class="skill">Leadership Skills<i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
 
-            <div class="progress">
-               <span class="skill">Strategic Thinking <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
 
-            <div class="progress">
-               <span class="skill">Web Development<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
 
-          </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
 
-        </div>
+          </ul>
 
-      </div>
-    </section><!-- End Skills Section -->
+        </section> -->
+
+      </article>
 
 
+      <!--
+        - #RESUME
+      -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
+      <article class="resume" data-page="resume">
 
-        <div class="section-title">
-          <h2>Resume</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item pb-0">
-              <h4>Discover Graduate at _VOIS(Vodafone Group)</h4>
-		    <h5>Project Manager</h5>
-		    <h5>2022 - Present</h5>
-              <p><em></em></p>
-              <ul>
-                <li>Assure Process Adherence to agreed project parameters - for Scope, Time & Quality</li>
-                <li>Ensure meeting the defined Cycled time for Project, Sprint /Activity</li>
-                <li>Ensure planned value/outcomes are tracked, controled and delivered (Produce varinace reports)</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Business Administration</h4>
-              <h5>2020 - 2022</h5>
-              <p><em>Symbiosis Institute of Digital and Telecom Management</em></p>
-              <p>Pursued MBA in Digital and Telecom Management with Major in Systems and Minor in Finance</p>
-		    <p> Received <b>Best All Round Student</b> & <b>First in Specialization</b> Awards for the Batch 2020-22</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Technology</h4>
-              <h5>2016 - 2020</h5>
-              <p><em>Indian Institute of Information Technology, Sri City</em></p>
-              <p>Pursued Bachelor of Technology (B.Tech) with Electornics and Communication Engineering as Major. </p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Internships</h3>
-            <div class="resume-item">
-              <h4>Business Modelling Intern</h4>
-              <h5>June 2021 - August 2021</h5>
-              <p><em>HugoByte AI Labs</em></p>
-              <ul>
-                <li> Worked on launching a business unit for developing a No code / Low Code development platform</li>
-                <li> Identified and developed revenue models aligning with the target market segment</li>
-                <li> Worked on launching our product by understanding market shifts and emerging markets</li>
-                <li> Identified the AI/ML features for the platform in the fields of Healthcare, BFSI, and Airlines</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Development Intern</h4>
-              <h5>Jan 2020 - May 2020</h5>
-              <p><em>RIA Advisory LLP</em></p>
-              <ul>
-                <li>Worked on projects which contributed to the company's aim to develop Revenue Management and Billing Solutions in the finance and healthcare domain.</li>
-                <li>Worked on developing the GUI for various client applications built on ORMB</li>
-                <li>Designed in-house applications for Employee Efficiency, UI Library, and Recruitment Management System.</li>
-              </ul>
-            </div>
-          </div>
-		
-	  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Position of Responsiblity</h3>
-            <div class="resume-item">
-              <h4>Vice-Chief Coordinator of Academics and Research Committee</h4>
-              <h5>August 2020 - May 2022</h5>
-              <p><em>SIDTM</em></p>
-              <ul>
-                <li> Vice-Chief Coordinator of Academics and Research Committee</li>
-                <li> Facilitate the triad relationship of Student- Management- Corporate and organize academic activities</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>CONSILIUM - Consultancy Club</h4>
-              <h5>September 2020 - May 2022</h5>
-              <p><em>SIDTM</em></p>
-              <ul>
-                <li> Core Member and ACADS Interface of CONSILIUM - Consultancy Club</li>
-                <li> Writing white papers on emerging technologies to help the batches prepare for their industry exposure</li>
-              </ul>
-            </div>
-
-           <div class="resume-item">
-              <h4>Vertical Head- Communication Infrastructure, Prevision'22</h4>
-              <h5>October 2020 - May 2022</h5>
-              <p><em>SIDTM</em></p>
-              <ul>
-                <li> Vertical head of Communication Infrastructure – Prevision’22</li>
-                <li> Analyzing the latest market trends related to Comm Infra. and developing white papers on the topics</li>
-              </ul>
-            </div>
-          </div>
-
-     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Tools and Certifications</h3>
-            <div class="resume-item">
-              <h4>TOOLS</h4>
-	     <ul>
-                <li> Languages: Python, R Programming, C++, C, Java</li>
-		<li> Visualization: Power BI, Tableau</li>
-                <li> Database: MySQL</li>
-		<li> Tools/Frameworks: SPSS, Numpy, Scikit-learn, Scrapy, Pandas, Matplotlib, Angular</li>
-		<li> Web Tools: HTML, CSS, Java Script, Type Script, JSON</li>
-		<li> General: Product Management, Artifical Intelligence, Machine Learning, Data Structures, Algorithms, Data Analytics, Business statistics</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>Certifications</h4>
-              <ul>
-	        <li> Design Thinking: Understanding the Proces from PMI Institute in 2022</li>
-		<li> Project Management Foundations from PMI Institute in 2022</li>
-                <!-- <li> Introduction to Cyber security certified from Cisco Networking Academy in 2021</li> -->
-                <li> AWS Academy Graduate from AWS Academy Cloud Foundations in 2021</li>
-		<li> IBM Blockchain Essentials from IBM in 2021</li>
-		<!-- <li> Linear Regression for Business Statistics certified from Coursera in 2020</li> -->
-		<li> Business Statistics and Analysis by Rice University on Coursera</li>
-              </ul>
-            </div>
-
-           <div class="resume-item">
-              <h4>Virutal Experince Programmes </h4>
-              <ul>
-                <li> Data Analytics Consulting Virtual Internship from KPMG in 2020</li>
-                <li> Strategy Consulting Experience Program from BCG in 2021</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-
-
- <!-- =================================================== Projects Section ===================================== -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>While pursuing my graduation and post graduation, I am involved in projects that are challenging; balance studies with work – in connecting the dots between ‘taught’ (theory) and‘practiced’ (implementation). Through my diverse experiences, I have learned to thrive in fast-paced environments and adjust to highly dynamic situations.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="icofont-rounded-right"></i></div>
-            <h4 class="title"><a href="https://ieeexplore.ieee.org/document/9990791">Implementation of Blockchain Technologies to avoid fraud in Supply Chain</a></h4>
-            <p align="justify" class="description">Presented blockchain application in Supply Chain for transparency, traceability, and sustainability. Proposed federated blockchain in place of private blockchain for the Supply Chain Management (SCM). Proposed a framework involving smart contracts, the cryptocurrency-based payment system in SCM</p>
-	  </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="icofont-rounded-right"></i></div>
-            <h4 class="title"><a href="">Wireless Hard-Time Control Link for Platooning</a></h4>
-            <p align="justify" class="description">Working on formulating and developing vehicular platooning strategy recommendation system using simulation tools such as Netlogo to demonstrate the platooning strategies.Includes stability and reliability analysis of communication link in a vehicular platoon.
-		<br><strong>Technology/Tools:</strong> Netlogo, NS2</p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="icofont-rounded-right"></i></div>
-            <h4 class="title"><a href="">Scout Bot</a></h4>
-            <p align="justify" class="description">A military purpose moving bot which live streams video onto the server(website). It can be controlled from any place based on the video. The bot also detects dangerous objects in its way(image processing) and alerts the user (in this case a single user).
-		<br><strong>Technology/Tools:</strong> Django, Bootstrap</p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="icofont-rounded-right"></i></div>
-            <h4 class="title"><a href="">Web based GIS Smart Plant Management Agriculture System</a></h4>
-            <p align="justify" class="description">Fully automated agriculture system with auto watering mechanisms and decision making through ML based on weather patterns to decide whether to water a certain plant or not. Coupled with fully responsive web app for live real time tracking of plants health and growth. Scalable to large plantations.
-		<br><strong>Technology/Tools:</strong> Python, Django, Angular, CSS, Bootstrap</p>
-          </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-   
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p></p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Ajax, Ontario, Canada</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>arohitchowdary@gmail.com</p>
-              </div>
-
-		<div class="contact-info">
-		    <div class="phone">
-		        <i class="icofont-phone"></i>
-		        <h4>Call:</h4>
-		        <p>+1 3439870751 <img src="assets/img/ca.svg" alt="Canada Flag" style="width: 20px; height: auto;"> | +91 9100867560 <img src="assets/img/in.svg" alt="India Flag" style="width: 20px; height: auto;"></p>
-		    </div>
-		    <div class="whatsapp">
-		        <i class="icofont-whatsapp"></i>
-		        <h4>WhatsApp:</h4>
-		        <p>+1 3439870751 | +91 9100867560</p>
-		    </div>
-		</div>
-
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.774641878242!2d-79.0132603238236!3d43.882767497980936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d51ff1902ec319%3A0xccf13ea9645815a5!2s7%20Barnham%20St%2C%20Ajax%2C%20ON!5e0!3m2!1sen!2sca!4v1706020019820!5m2!1sen!2sca" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h2 class="h2 article-title">
           
+          <span>Resume</span> 
+          <a href="https://drive.google.com/file/d/1jipK1Lp0rxkxVO-mNlHjbGs1rn8a7qQL/view?usp=sharing" target="_blank"><ion-icon name="download-outline"></ion-icon></a>
+      </h2>      
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
+            <h3 class="h3">Experience</h3>
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant @ AI Hub</h4>
+
+              <span>Nov'2024 — Present</span>
+
+              <p class="timeline-text">
+                Developed LLM-driven AI solutions for automated document summarization, knowledge retrieval, and customer service optimization, leveraging OpenAI, LangChain, RAG and vector databases (FAISS, Pinecone, ChromaDB).<br>
+                Built an AI-driven compliance automation system for CSRD ESRS regulations, using LangChain, AWS SageMaker, Amazon OpenSearch, and OpenAI LLMs, improving regulatory adherence and operational efficiency.<br>
+                Developed an AI-based anomaly detection system for geochemical data, utilizing machine learning techniques, deep learning models, and statistical analysis to identify outliers and enhance exploration accuracy.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research and Policy Analyst</h4>
+
+              <span>Mar'2024 — Aug'2024</span>
+
+              <p class="timeline-text">
+                Orchestrated a comprehensive analysis of socio-economic policies, leveraging Python and SQL to process over 500,000 data points across key DEI metrics providing insights that informed policy and strategic planning.<br>
+                Developed and delivered 20+ data visualizations in Tableau to support advocacy efforts, leading to a 15% increase in policy engagement and a 10% improvement in DEI-related outcomes across target groups.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Discover Graduate- Data Analytics and Project Management</h4>
+
+              <span>Jun'2022 — Jul'2023</span>
+
+              <p class="timeline-text">
+                Engineered ETL pipelines and integrated a centralized data lake using Spark and Power BI, reducing data processing time by 30% and enabling 24/7 access to unified data across 15+ departments for CXO-level decision-making. <br>
+                Automated management reporting dashboards, consolidating over 10 million data points monthly from disparate sources, cutting report generation time by 30% and improving data accuracy by 20%.<br>
+                Improved Mean Time to Repair (MTTR) by 27% within 9 months by automating incident response workflows, enabling real-time data analysis and achieving faster issue resolution.<br>
+                Implemented DEI analytics through the data lake, impacting 10,000+ FTEs globally, using data-backed insights to drive 5% improvement in targeted DEI engagement scores.<br>
+                Recognized with two Vodafone Star Awards in under six months for innovation and excellence in cross-functional teamwork.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
           </div>
 
-        </div>
+          <ol class="timeline-list">
 
-      </div>
-    </section><!-- End Contact Section -->
+            <li class="timeline-item">
 
-  </main><!-- End #main -->
+              <h4 class="h4 timeline-item-title">Durham College of Applied Arts and Technology</h4>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Rohit Chowdary</span></strong>
-      </div>
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Completed a Post Graduate Diploma in Data Analytics and International Business at Durham College, gaining expertise in data-driven 
+                decision-making, ETL, data visualization, predictive analytics, and statistical modeling. Through hands-on projects, I applied 
+                these skills to real-world business challenges while also developing a strong understanding of international markets, trade 
+                regulations, and global business strategies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Symbiosis International University</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                Completed an MBA in Digital and Telecom Management, specializing in Systems with a minor in Finance, gaining expertise in digital 
+                transformation, enterprise systems, and financial decision-making. I was honored with the Best All Round Student Award for excellence 
+                in academics, leadership, and extracurricular activities, along with the First in Specialization Award for outstanding performance in 
+                Systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Information Technoloy</h4>
+
+              <span>2016 — 2020</span>
+
+              <p class="timeline-text">
+                Completed a Bachelor of Technology (B.Tech) in Electronics and Communication Engineering, where I gained a strong foundation in 
+                embedded systems, telecommunications, and signal processing. As part of my studies, I worked on a Smart Transportation research project, 
+                focusing on intelligent traffic management and IoT-based solutions, applying engineering principles to real-world mobility challenges.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #projects
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <!-- <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li> -->
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other Technologies</button>
+            </li> -->
+<!-- 
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other Technologies</button>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="https://github.com/rohitatluri/AI-Powered-Calorie-Tracker-Nutrition-Assistant">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">AI powered Calorie tracker and Nutrition Assistant</h3>
+                <!-- <p class="project-category">Data Analytics</p> -->
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="https://github.com/rohitatluri/Immigration-Insights-A-Data-Driven-Visualization-of-Non-Permanent-Residents-in-Canada-2021-2024">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Immigration Insights Dashboard</h3>
+
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/rohitatluri/Social-Media-Impact-on-Productivity-A-Data-Intelligence-Approach">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Social Media Impact on Productivity</h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpeg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sustainable Business Proposal : Barry Callabeaut</h3>
+
+                <!-- <p class="project-category">Applications</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9990791">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Research Paper: Blockchain</h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.jpeg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vision Based Driver Recommendation System</h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/rohitatluri/Mysterious-Object-Detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Mysterious Object Detection</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/rohitatluri/Scout-Bot">
+
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Scout Bot</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/rohitatluri/Plant-Watering-and-Management-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IoT based Smart Agritculture</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://rohitchowdary.medium.com/impact-of-churn-in-telecom-industry-how-bi-can-potentially-solve-the-problem-1737a2fbb20f">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Medium</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jun 11, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Impact of churn in telecom Industry.</h3>
+
+                  <!-- <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/pulse/digital-transformation-world-consulting-rohit-chowdary/?trackingId=55Jol%2FB6Siqoy0Z2Wa3ywg%3D%3D">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">LinkedIn</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jul 21, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Digital transformation in the world of consulting</h3>
+
+                  <!-- <p class="blog-text">
+                    "68% of executives believe that collaboration between people and AI will be key to the future of businesses"
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://rohitchowdary.medium.com/internet-of-behaviour-iob-the-unfoldment-of-personalization-cea1266d6838">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Medium</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 21, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Internet of Behaviour (IoB), the unfoldment of personalization</h3>
+
+                  <!-- <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/pulse/what-nue-new-digital-payments-buzzword-rohit-chowdary/?trackingId=55Jol%2FB6Siqoy0Z2Wa3ywg%3D%3D">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Medium</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">What is NUE, the new digital payments buzzword?</h3>
+
+                  <!-- <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/pulse/wish-vished-smished-too-rohit-chowdary/?trackingId=55Jol%2FB6Siqoy0Z2Wa3ywg%3D%3D">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">LinkedIn</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 21, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Wish to not be vished! (smished too!!)</h3>
+
+                  <!-- <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/pulse/xaas-anything-everything-service-rohit-chowdary/?trackingId=55Jol%2FB6Siqoy0Z2Wa3ywg%3D%3D">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">LinkedIn</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jun 21, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">XaaS: Anything and Everything as Service!</h3>
+
+                  <!-- <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977155126!2d-79.5428704472023!3d43.71837095842768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1738892789237!5m2!1sen!2sca"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
     </div>
-  </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  </main>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
